@@ -13,11 +13,11 @@
 	id$=e=foundById,
 	$Main=e[0]=$id('main');
 	e=k=null;
-	//ง
+	//ยง
 
 	log('isReady:',log.ts1=perfnow());
 
-	//ง
+	//ยง
 	swapClass(Html,'loading','ready');
  }
  function isLoad(evt){
@@ -28,14 +28,14 @@
 	$Main=id$[0],
 	$id=getById;
 	e=k=null;
-	//ง
+	//ยง
 
 	e=log;
 	e('isLoad:',e.ts2=perfnow());
 	e('time:',e.ts2-e.ts1);
 	e=e.ts1=e.ts2=null;
 
-	//ง
+	//ยง
 	swapClass(Html,'ready','loaded');
 	d.title=dto;
  }
